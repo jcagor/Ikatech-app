@@ -1,0 +1,226 @@
+<mat-toolbar><span></span></mat-toolbar>
+<div class="container">
+  <div class="row p-2">
+    <div class="col-md-8">
+      <img src="https://hushpuppiescol.vtexassets.com/arquivos/logo-2.png" class="logo" alt="hushpuppies-logo">
+    </div>
+    <div class="col-md-4">
+      <mat-form-field appearance="outline" class="float-end">
+        <mat-label>Buscar</mat-label>
+        <input matInput placeholder="marca">
+        <mat-icon matSuffix>search</mat-icon>
+      </mat-form-field>
+      <div class="float-end text-uppercase fw-lighter">Envíos gratis para pedidos superiores a $ 300.000</div>
+    </div>
+    <div class="col-md-12 p-1">
+      <button mat-button [matMenuTriggerFor]="aboveMenu">Hombre</button>
+      <mat-menu #aboveMenu="matMenu" yPosition="above">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+
+      <button mat-button [matMenuTriggerFor]="belowMenu">Mujer</button>
+      <mat-menu #belowMenu="matMenu" yPosition="below">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+
+      <button mat-button [matMenuTriggerFor]="beforeMenu">Blog</button>
+      <mat-menu #beforeMenu="matMenu" xPosition="before">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+
+      <button mat-button [matMenuTriggerFor]="afterMenu">Historia</button>
+      <mat-menu #afterMenu="matMenu" xPosition="after">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+
+      <button mat-button [matMenuTriggerFor]="historyMenu">Tiendas</button>
+      <mat-menu #historyMenu="matMenu" xPosition="after">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+      <button mat-button class="float-end" [matMenuTriggerFor]="historyMenu"><mat-icon matSuffix>shopping_cart</mat-icon> Carrito 0</button>
+    </div>
+    <mat-divider></mat-divider>
+  
+    <div class="col-md-12 p-4">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb text-uppercase">
+          <li class="breadcrumb-item">Hushpuppiesco</li>
+          <li class="breadcrumb-item">Calzado</li>
+          <li class="breadcrumb-item active" aria-current="page">Zapatilla Hombre Pelikan</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="col-md-6">
+      <img src="https://media.istockphoto.com/id/1217986589/photo/matte-white-texture.jpg?s=612x612&w=0&k=20&c=8_pCyKuZFy623Aq7KT9cMOyyqTs6gR4l_o1BLcYJbt8=" class="img-thumbnail" alt="...">
+    </div>
+    <div class="col-md-6">
+      <p class="h2 text-uppercase">Zapatilla Hombre Pelikan</p>
+      <p class="lead">$ 0</p>
+      <p class="fw-lighter">Cod. de producto zap-005</p>
+
+      <div class="fw-lighter">Color</div>
+      <img src="https://www.scottsystem.com/wp-content/uploads/2020/05/texture-thumb-1600-360x360.jpg" class="img-thumbnail" width="80em" alt="...">
+
+      <div class="fw-lighter mt-3">Talla</div>
+      <div class="text-center">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col">
+            <div class="p-3 border bg-light">5</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">5.5</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">6</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">6.5</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">7</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">7.5</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">8</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">8.5</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">9</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">9.5</div>
+          </div>
+        </div>
+      </div>
+      <p class="text-decoration-underline text-uppercase mt-3">Guia de tallas</p>
+    </div>
+    <div class="col-md-6">
+      <img src="https://www.scottsystem.com/wp-content/uploads/2020/05/texture-thumb-1600-360x360.jpg" class="img-thumbnail" width="80em" alt="...">
+      <img src="https://www.scottsystem.com/wp-content/uploads/2020/05/texture-thumb-1600-360x360.jpg" class="img-thumbnail" width="80em" alt="...">
+      <img src="https://www.scottsystem.com/wp-content/uploads/2020/05/texture-thumb-1600-360x360.jpg" class="img-thumbnail" width="80em" alt="...">
+      <img src="https://www.scottsystem.com/wp-content/uploads/2020/05/texture-thumb-1600-360x360.jpg" class="img-thumbnail" width="80em" alt="...">
+      <img src="https://www.scottsystem.com/wp-content/uploads/2020/05/texture-thumb-1600-360x360.jpg" class="img-thumbnail" width="80em" alt="...">
+      <img src="https://www.scottsystem.com/wp-content/uploads/2020/05/texture-thumb-1600-360x360.jpg" class="img-thumbnail" width="80em" alt="...">
+    </div>
+    <div class="col-md-6">
+      <div class="example-button-row">
+        <button mat-flat-button class="text-uppercase" color="primary" style="width:70%">Añadir al carrito</button>
+        <button mat-icon-button class="float-end" aria-label="Example icon button with a heart icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+      </div>
+    </div>
+    <!-- TEXT -->
+    <div class="col-md-12 mt-5">
+      <p class="h4 text-uppercase">Detalles del producto</p>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="col-md-12 mt-3">
+      <p class="fw-lighter">Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit.</p>
+    </div>
+
+    <div class="col-md-12 mt-5">
+      <p class="h4 text-uppercase">Tecnología</p>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="col-md-12 mt-3">
+      <p class="fw-lighter">Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla quis lorem ut libero malesuada feugiat. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta.</p>
+    </div>
+
+    <div class="col-md-12 mt-3">
+      <div class="bg-light">
+        <p class="text-uppercase">Completa to look</p>
+      </div>
+    </div>
+    <div class="col-md-12 mt-3">
+
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col" *ngFor="let data of listProducts;">
+          <div class="card">
+            <img src="../assets/img/{{data.foto}}" height="300px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{data.nombre}}</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="example-button-container float-end"><button mat-icon-button aria-label="Example icon button with a home icon"><mat-icon>shopping_basket</mat-icon></button></div>
+              <p class="card-text mt-4"><small class="text-muted">$ {{data.precio | number:'1.0-0'}} COP</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+  <section class="d-flex justify-content-center p-5 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <span class="text-uppercase">@Hushpuppiesco</span>
+    </div>
+    <div>
+      <a href="" class="me-4 link-black">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-black">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-black">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 link-black">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-black">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-black">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </section>
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold mb-4">Servicio al cliente</h5>
+          <p><a href="#!" class="text-uppercase fw-lighter text-reset">Contáctenos</a></p>
+          <p><a href="#!" class="text-uppercase fw-lighter text-reset">Cambios y devoluciones</a></p>
+          <p><a href="#!" class="text-uppercase fw-lighter text-reset">Políticas de la tienda</a></p>
+          <p><a href="#!" class="text-uppercase fw-lighter text-reset">Políticas de datos</a></p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold mb-4">Mi cuenta</h5>
+          <p><a href="#!" class="text-uppercase fw-lighter text-reset">Mis pedidos</a></p>
+          <p><a href="#!" class="text-uppercase fw-lighter text-reset">Mis devoluciones</a></p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold mb-4">Recursos</h5>
+          <p><a href="#!" class="text-uppercase fw-lighter text-reset">Tiendas</a></p>
+          <p><a href="#!" class="text-uppercase fw-lighter text-reset">Devoluciones</a></p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h5 class="text-uppercase fw-bold mb-4">Newsletter</h5>
+          <p class="fw-lighter">Regístrate para ser el primero en recibir nuestras noticias</p>
+          <mat-form-field appearance="outline" class="float-end" style="width: 100%">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" placeholder="suscríbete">
+            <mat-icon matSuffix>mail_outline</mat-icon>
+          </mat-form-field>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2022 Copyright:
+  </div> 
+</footer>
